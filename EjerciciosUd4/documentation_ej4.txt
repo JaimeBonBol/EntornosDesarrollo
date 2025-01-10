@@ -1,0 +1,25 @@
+Help on module ej4pydoc:
+
+NAME
+    ej4pydoc
+
+FUNCTIONS
+    raiz_n_esima(x, n)
+        Calcula la n-ésima raíz de un número.
+
+        Args:
+            x (float): El número del cual calcular la raíz.
+            n (int): El valor de la raíz (por ejemplo, 2 para la raíz cuadrada, 3 para la raíz cúbica).
+
+        Returns:
+            float: El resultado de la n-ésima raíz de x.
+
+DATA
+    n = 3
+    numero = 27
+    resultado = 3.0
+
+FILE
+    /home/jaimedam/Escritorio/Entornos de desarrollo/EjerciciosUd4/ej4pydoc.py
+
+

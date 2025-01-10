@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module ej2pydoc</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">ej2pydoc</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:/home/jaimedam/Escritorio/Entornos%20de%20desarrollo/EjerciciosUd4/ej2pydoc.py">/home/jaimedam/Escritorio/Entornos de desarrollo/EjerciciosUd4/ej2pydoc.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="ej2pydoc.html#Empleado">Empleado</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="ej2pydoc.html#Gerente">Gerente</a>
+</dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Empleado">class <strong>Empleado</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Empleado">Empleado</a>(nombre,&nbsp;salario,&nbsp;puesto)<br>
+&nbsp;<br>
+Clase&nbsp;que&nbsp;representa&nbsp;a&nbsp;un&nbsp;empleado&nbsp;dentro&nbsp;de&nbsp;una&nbsp;empresa.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Empleado-__init__"><strong>__init__</strong></a>(self, nombre, salario, puesto)</dt><dd><span class="code">Inicializa&nbsp;los&nbsp;atributos&nbsp;básicos&nbsp;de&nbsp;un&nbsp;empleado.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nombre&nbsp;(str):&nbsp;Nombre&nbsp;del&nbsp;empleado.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;salario&nbsp;(float):&nbsp;Salario&nbsp;mensual&nbsp;del&nbsp;empleado.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;puesto&nbsp;(str):&nbsp;Puesto&nbsp;de&nbsp;trabajo&nbsp;del&nbsp;empleado.</span></dd></dl>
+
+<dl><dt><a name="Empleado-aumento_salario"><strong>aumento_salario</strong></a>(self, aumento)</dt><dd><span class="code">Aumenta&nbsp;el&nbsp;salario&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;aumento&nbsp;(float):&nbsp;El&nbsp;incremento&nbsp;en&nbsp;el&nbsp;salario&nbsp;del&nbsp;empleado.</span></dd></dl>
+
+<dl><dt><a name="Empleado-cambiar_puesto"><strong>cambiar_puesto</strong></a>(self, nuevo_puesto)</dt><dd><span class="code">Cambia&nbsp;el&nbsp;puesto&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nuevo_puesto&nbsp;(str):&nbsp;El&nbsp;nuevo&nbsp;puesto&nbsp;que&nbsp;el&nbsp;empleado&nbsp;ocupará.</span></dd></dl>
+
+<dl><dt><a name="Empleado-mostrar_informacion"><strong>mostrar_informacion</strong></a>(self)</dt><dd><span class="code">Muestra&nbsp;la&nbsp;información&nbsp;básica&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;str:&nbsp;Información&nbsp;del&nbsp;empleado.</span></dd></dl>
+
+<dl><dt><a name="Empleado-obtener_nombre"><strong>obtener_nombre</strong></a>(self)</dt><dd><span class="code">Retorna&nbsp;el&nbsp;nombre&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;str:&nbsp;Nombre&nbsp;del&nbsp;empleado.</span></dd></dl>
+
+<dl><dt><a name="Empleado-obtener_salario"><strong>obtener_salario</strong></a>(self)</dt><dd><span class="code">Retorna&nbsp;el&nbsp;salario&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;Salario&nbsp;mensual&nbsp;del&nbsp;empleado.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Gerente">class <strong>Gerente</strong></a>(<a href="ej2pydoc.html#Empleado">Empleado</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Gerente">Gerente</a>(nombre,&nbsp;salario,&nbsp;puesto,&nbsp;departamento)<br>
+&nbsp;<br>
+Clase&nbsp;que&nbsp;representa&nbsp;a&nbsp;un&nbsp;gerente,&nbsp;que&nbsp;es&nbsp;un&nbsp;tipo&nbsp;especializado&nbsp;de&nbsp;empleado.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="ej2pydoc.html#Gerente">Gerente</a></dd>
+<dd><a href="ej2pydoc.html#Empleado">Empleado</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Gerente-__init__"><strong>__init__</strong></a>(self, nombre, salario, puesto, departamento)</dt><dd><span class="code">Inicializa&nbsp;los&nbsp;atributos&nbsp;de&nbsp;un&nbsp;gerente,&nbsp;incluyendo&nbsp;el&nbsp;departamento&nbsp;que&nbsp;supervisa.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nombre&nbsp;(str):&nbsp;Nombre&nbsp;del&nbsp;gerente.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;salario&nbsp;(float):&nbsp;Salario&nbsp;mensual&nbsp;del&nbsp;gerente.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;puesto&nbsp;(str):&nbsp;Puesto&nbsp;de&nbsp;trabajo&nbsp;del&nbsp;gerente.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;departamento&nbsp;(str):&nbsp;El&nbsp;departamento&nbsp;que&nbsp;el&nbsp;gerente&nbsp;supervisa.</span></dd></dl>
+
+<dl><dt><a name="Gerente-agregar_empleado"><strong>agregar_empleado</strong></a>(self, empleado)</dt><dd><span class="code">Agrega&nbsp;un&nbsp;empleado&nbsp;a&nbsp;la&nbsp;lista&nbsp;de&nbsp;empleados&nbsp;bajo&nbsp;su&nbsp;cargo.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;empleado&nbsp;(<a href="#Empleado">Empleado</a>):&nbsp;El&nbsp;empleado&nbsp;que&nbsp;será&nbsp;agregado.</span></dd></dl>
+
+<dl><dt><a name="Gerente-mostrar_empleados"><strong>mostrar_empleados</strong></a>(self)</dt><dd><span class="code">Muestra&nbsp;los&nbsp;empleados&nbsp;bajo&nbsp;el&nbsp;cargo&nbsp;del&nbsp;gerente.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;str:&nbsp;Lista&nbsp;de&nbsp;empleados&nbsp;a&nbsp;cargo&nbsp;del&nbsp;gerente.</span></dd></dl>
+
+<dl><dt><a name="Gerente-mostrar_informacion"><strong>mostrar_informacion</strong></a>(self)</dt><dd><span class="code">Muestra&nbsp;la&nbsp;información&nbsp;básica&nbsp;del&nbsp;gerente,&nbsp;incluyendo&nbsp;su&nbsp;departamento.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;str:&nbsp;Información&nbsp;del&nbsp;gerente.</span></dd></dl>
+
+<dl><dt><a name="Gerente-obtener_departamento"><strong>obtener_departamento</strong></a>(self)</dt><dd><span class="code">Retorna&nbsp;el&nbsp;departamento&nbsp;que&nbsp;supervisa&nbsp;el&nbsp;gerente.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;str:&nbsp;El&nbsp;departamento&nbsp;del&nbsp;gerente.</span></dd></dl>
+
+<hr>
+Methods inherited from <a href="ej2pydoc.html#Empleado">Empleado</a>:<br>
+<dl><dt><a name="Gerente-aumento_salario"><strong>aumento_salario</strong></a>(self, aumento)</dt><dd><span class="code">Aumenta&nbsp;el&nbsp;salario&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;aumento&nbsp;(float):&nbsp;El&nbsp;incremento&nbsp;en&nbsp;el&nbsp;salario&nbsp;del&nbsp;empleado.</span></dd></dl>
+
+<dl><dt><a name="Gerente-cambiar_puesto"><strong>cambiar_puesto</strong></a>(self, nuevo_puesto)</dt><dd><span class="code">Cambia&nbsp;el&nbsp;puesto&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nuevo_puesto&nbsp;(str):&nbsp;El&nbsp;nuevo&nbsp;puesto&nbsp;que&nbsp;el&nbsp;empleado&nbsp;ocupará.</span></dd></dl>
+
+<dl><dt><a name="Gerente-obtener_nombre"><strong>obtener_nombre</strong></a>(self)</dt><dd><span class="code">Retorna&nbsp;el&nbsp;nombre&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;str:&nbsp;Nombre&nbsp;del&nbsp;empleado.</span></dd></dl>
+
+<dl><dt><a name="Gerente-obtener_salario"><strong>obtener_salario</strong></a>(self)</dt><dd><span class="code">Retorna&nbsp;el&nbsp;salario&nbsp;del&nbsp;empleado.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;Salario&nbsp;mensual&nbsp;del&nbsp;empleado.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ej2pydoc.html#Empleado">Empleado</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>empleado1</strong> = &lt;ej2pydoc.Empleado object&gt;<br>
+<strong>empleado2</strong> = &lt;ej2pydoc.Empleado object&gt;<br>
+<strong>gerente</strong> = &lt;ej2pydoc.Gerente object&gt;</td></tr></table>
+</body></html>

@@ -1,0 +1,164 @@
+Empleado: Juan Pérez, Puesto: Desarrollador, Salario: 2500
+Empleado: Ana Gómez, Puesto: Diseñadora, Salario: 2700
+Gerente: Carlos Ruiz, Puesto: Gerente de TI, Departamento: Tecnología, Salario: 5000
+
+Empleados bajo el cargo de Carlos Ruiz:
+Empleado: Juan Pérez, Puesto: Desarrollador, Salario: 2500
+Empleado: Ana Gómez, Puesto: Diseñadora, Salario: 2700
+
+Información actualizada de Juan Pérez:
+Empleado: Juan Pérez, Puesto: Líder de equipo, Salario: 3000
+Help on module ej2pydoc:
+
+NAME
+    ej2pydoc
+
+CLASSES
+    builtins.object
+        Empleado
+            Gerente
+
+    class Empleado(builtins.object)
+     |  Empleado(nombre, salario, puesto)
+     |
+     |  Clase que representa a un empleado dentro de una empresa.
+     |
+     |  Methods defined here:
+     |
+     |  __init__(self, nombre, salario, puesto)
+     |      Inicializa los atributos básicos de un empleado.
+     |
+     |      Args:
+     |          nombre (str): Nombre del empleado.
+     |          salario (float): Salario mensual del empleado.
+     |          puesto (str): Puesto de trabajo del empleado.
+     |
+     |  aumento_salario(self, aumento)
+     |      Aumenta el salario del empleado.
+     |
+     |      Args:
+     |          aumento (float): El incremento en el salario del empleado.
+     |
+     |  cambiar_puesto(self, nuevo_puesto)
+     |      Cambia el puesto del empleado.
+     |
+     |      Args:
+     |          nuevo_puesto (str): El nuevo puesto que el empleado ocupará.
+     |
+     |  mostrar_informacion(self)
+     |      Muestra la información básica del empleado.
+     |
+     |      Returns:
+     |          str: Información del empleado.
+     |
+     |  obtener_nombre(self)
+     |      Retorna el nombre del empleado.
+     |
+     |      Returns:
+     |          str: Nombre del empleado.
+     |
+     |  obtener_salario(self)
+     |      Retorna el salario del empleado.
+     |
+     |      Returns:
+     |          float: Salario mensual del empleado.
+     |
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |
+     |  __dict__
+     |      dictionary for instance variables
+     |
+     |  __weakref__
+     |      list of weak references to the object
+
+    class Gerente(Empleado)
+     |  Gerente(nombre, salario, puesto, departamento)
+     |
+     |  Clase que representa a un gerente, que es un tipo especializado de empleado.
+     |
+     |  Method resolution order:
+     |      Gerente
+     |      Empleado
+     |      builtins.object
+     |
+     |  Methods defined here:
+     |
+     |  __init__(self, nombre, salario, puesto, departamento)
+     |      Inicializa los atributos de un gerente, incluyendo el departamento que supervisa.
+     |
+     |      Args:
+     |          nombre (str): Nombre del gerente.
+     |          salario (float): Salario mensual del gerente.
+     |          puesto (str): Puesto de trabajo del gerente.
+     |          departamento (str): El departamento que el gerente supervisa.
+     |
+     |  agregar_empleado(self, empleado)
+     |      Agrega un empleado a la lista de empleados bajo su cargo.
+     |
+     |      Args:
+     |          empleado (Empleado): El empleado que será agregado.
+     |
+     |  mostrar_empleados(self)
+     |      Muestra los empleados bajo el cargo del gerente.
+     |
+     |      Returns:
+     |          str: Lista de empleados a cargo del gerente.
+     |
+     |  mostrar_informacion(self)
+     |      Muestra la información básica del gerente, incluyendo su departamento.
+     |
+     |      Returns:
+     |          str: Información del gerente.
+     |
+     |  obtener_departamento(self)
+     |      Retorna el departamento que supervisa el gerente.
+     |
+     |      Returns:
+     |          str: El departamento del gerente.
+     |
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Empleado:
+     |
+     |  aumento_salario(self, aumento)
+     |      Aumenta el salario del empleado.
+     |
+     |      Args:
+     |          aumento (float): El incremento en el salario del empleado.
+     |
+     |  cambiar_puesto(self, nuevo_puesto)
+     |      Cambia el puesto del empleado.
+     |
+     |      Args:
+     |          nuevo_puesto (str): El nuevo puesto que el empleado ocupará.
+     |
+     |  obtener_nombre(self)
+     |      Retorna el nombre del empleado.
+     |
+     |      Returns:
+     |          str: Nombre del empleado.
+     |
+     |  obtener_salario(self)
+     |      Retorna el salario del empleado.
+     |
+     |      Returns:
+     |          float: Salario mensual del empleado.
+     |
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Empleado:
+     |
+     |  __dict__
+     |      dictionary for instance variables
+     |
+     |  __weakref__
+     |      list of weak references to the object
+
+DATA
+    empleado1 = <ej2pydoc.Empleado object>
+    empleado2 = <ej2pydoc.Empleado object>
+    gerente = <ej2pydoc.Gerente object>
+
+FILE
+    /home/jaimedam/Escritorio/Entornos de desarrollo/EjerciciosUd4/ej2pydoc.py
+
+
